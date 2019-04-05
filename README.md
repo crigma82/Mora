@@ -5,5 +5,7 @@ Descripción del negocio elegido: Sistema de gestion de mora. Tiene la informaci
 
 
 GET / CLIENTES
-GET / CLIENTE / ?ID=
-GET / CLIENTE / PRODUCTOS 
+GET / CLIENTE/X
+GET / CLIENTE/PRODUCTOS
+GET / CLIENTE/PRODUCTOS/X
+
