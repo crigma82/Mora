@@ -16,13 +16,13 @@ GET / CLIENTES/X/PRODUCTOS \
 GET / CLIENTES/X/PRODUCTOS/X \
 GET / CLIENTES/X/MENSAJES/ \
 GET / CLIENTES/X/MENSAJES/X \
-GET / CLIENTES/X/MENSAJES?type=sent \
+GET / CLIENTES/X/MENSAJES?type=sent 
 
 ---------------------------------------
 
 POST / CLIENTES/X \
 POST / CLIENTES/X/PRODUCTOS/X \
-POST / CLIENTES/X/MENSAJES/X \
+POST / CLIENTES/X/MENSAJES/X 
 
 ---------------------------------------
 
