@@ -61,6 +61,8 @@
 					<th>Apellido</th>
 					<th>Tipo Documento</th>
 					<th>Num Documento</th>
+					<th>Acciones</th>
+					
 				</tr>
 			</thead>
 			<tbody>
@@ -71,6 +73,12 @@
 						<td><%= clientes[i].apellido %></td>
 						<td><%= clientes[i].tipo_documento %></td>
 						<td><%= clientes[i].documento %></td>
+						<td>
+							<a href="Lista_cuentas" class="btn_Cuentas">Ver</a>
+							<a href="/" class="btn_eliminar">Eliminar </a>
+							<a href="" class="btn_editar">Editar </a>
+							
+						</td>
 					</tr>
 				<%}%>
 			
