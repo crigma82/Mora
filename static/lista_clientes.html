@@ -1,5 +1,3 @@
-<<<<<<< HEAD:lista_clientes.html
-
 
 <!DOCTYPE html>
 <html>
@@ -87,84 +85,5 @@
 		</table>
     </div>
     </body>
-=======
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Lista cliente</title>
-</head>
-    <body>
-		<h1>Lista Clientes</h1>
-    
-	<div class="formulario">
-		<form action="/clientes" method="GET">
-			<table class="table_form">
-				<tr>
-				<div class="form-group">
-					<td>NOMBRE</td>
-					<td><input type="text" name="nombre" class="form-control"></td>
-				</div>
-				</tr>
-				<tr>
-				<div class="form-group">
-					<td>Apellido</td>
-					<td><input type="text" name="apellido" class="form-control"></td>
-				</div>
-				</tr>
-				<tr>
-				<div class="form-group">
-					<td>TIPO DOCUMENTO</td>
-					<td><input type="text" name="tipo_documento" class="form-control"></td>
-				</div>
-				</tr>
-				<tr>
-				<div class="form-group">
-					<td>DOCUMENTO</td>
-					<td><input type="text" name="documento" class="form-control"></td>
-				</div>
-				</tr>
-				<tr>
-				<div class="form-group">
-					<td>FECHA ALTA</td>
-					<td><input type="text" name="fecha_alta" class="form-control"></td>
-				</div>
-				</tr>
-				<tr>
-					<td><button type="submit" class="btn_add">
-					Agregar
-					</button></td>
-				</tr>
-			</table>
-		</form>
-	</div>
-
-	<div class="lista-cli">
-		<table class="table table-bordered table-hover">
-			<thead>
-				<tr>
-					<th>Numero</th>
-					<th>Nombre</th>
-					<th>Apellido</th>
-					<th>Tipo Documento</th>
-					<th>Num Documento</th>
-				</tr>
-			</thead>
-			<tbody>
-				<% for(var 1 = 1 ; 1 < clientes.length; i++){ %>
-					<tr>
-						<td><%= i + 1 %></td>
-						<td><%= clientes[i].nombre %></td>
-						<td><%= clientes[i].apellido %></td>
-						<td><%= clientes[i].tipo_documento %></td>
-						<td><%= clientes[i].documento %></td>
-					</tr>
-				<%}%>
-			
-			</tbody>
-		</table>
-    </div>
-    </body>
->>>>>>> 1cc0679df4d2f263c74b139e71bd5bda1e4ae2e5:static/lista_clientes.html
 </html>
