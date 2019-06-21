@@ -10,7 +10,7 @@ mongoose.connect("mongodb://localhost/XXX");
 
 // ENDPOINTS
 const Cliente = require["/modelos/cliente"]
-const Cuentas = require["/modelos/cuenta"]
+const Cuentas = require["/modelos/cuentas"]
 const Pagos = require["/modelos/pagos"]
 
 // CLIENTES
