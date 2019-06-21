@@ -1,0 +1,28 @@
+{
+  "name": "mora",
+  "version": "1.0.0",
+  "description": "Arquitectura Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crigma82/Mora.git"
+  },
+  "keywords": [
+    "tp",
+    "web"
+  ],
+  "author": "Gino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crigma82/Mora/issues"
+  },
+  "homepage": "https://github.com/crigma82/Mora#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0"
+  }
+}

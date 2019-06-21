@@ -1,8 +1,8 @@
-exports = module.exports = function(app, mongoose) {
-  var clienteSchema = new mongoose.Schema({
+module.exports = function (app, mongoose) {
+  const clienteSchema = new mongoose.Schema({
     nombre: { type: String },
     apellido: { type: String },
-    tipo_documento:    {
+    tipo_documento: {
       type: String,
       enum: ['DNI', 'LE', 'LC']
     },
