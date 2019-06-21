@@ -17,7 +17,7 @@ const Pagos = require["/modelos/pagos"]
 app.get('/clientes', async (req, res) => {
   const clientes = await Cliente.find();
   res.render("lista_cliente", {clientes});
-});
+}); 
 
 app.get('/clientes/:id', async (req, res) => {
   const { id } = req.param;
